@@ -1,0 +1,114 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Berrytap",
+  "theme": "almond",
+  "logo": {
+    "light": "https://media.brand.dev/5b77caae-c77d-4f47-9770-efd1af2fa226.svg",
+    "dark": "https://media.brand.dev/5b77caae-c77d-4f47-9770-efd1af2fa226.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#fa7bab",
+    "light": "#84445c",
+    "dark": "#191617"
+  },
+  "font": {
+    "headings": {
+      "family": "Onest"
+    },
+    "body": {
+      "family": "Inter"
+    }
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Start for free",
+      "href": "https://berrytap.com/register"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "account-setup"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "community/overview",
+              "community/feed-and-posts",
+              "community/members-and-roles",
+              "community/gamification"
+            ]
+          },
+          {
+            "group": "Courses",
+            "pages": [
+              "courses/overview",
+              "courses/building-a-course",
+              "courses/live-rooms"
+            ]
+          },
+          {
+            "group": "Payments",
+            "pages": [
+              "payments/overview",
+              "payments/qpay",
+              "payments/cards-and-wallets",
+              "payments/payouts"
+            ]
+          },
+          {
+            "group": "Plans & Billing",
+            "pages": [
+              "plans/pricing",
+              "plans/managing-your-plan"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Creator Guides",
+            "pages": [
+              "guides/launch-your-community",
+              "guides/coaching-program",
+              "guides/run-a-cohort",
+              "guides/grow-your-membership"
+            ]
+          },
+          {
+            "group": "Member Guides",
+            "pages": [
+              "guides/joining-a-community",
+              "guides/managing-your-membership"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting",
+              "help/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://berrytap.com"
+    }
+  }
+}

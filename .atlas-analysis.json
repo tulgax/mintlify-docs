@@ -1,0 +1,111 @@
+{
+  "projectType": "saas",
+  "projectName": "Berrytap",
+  "projectDescription": "Berrytap is an all-in-one platform for creators to build paid communities, sell courses, and host live sessions — with local QPay and card payments priced in tögrög.",
+  "theme": "almond",
+  "primaryColor": "#fa7bab",
+  "lightColor": "#84445c",
+  "darkColor": "#191617",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "account-setup"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "community/overview",
+              "community/feed-and-posts",
+              "community/members-and-roles",
+              "community/gamification"
+            ]
+          },
+          {
+            "group": "Courses",
+            "pages": [
+              "courses/overview",
+              "courses/building-a-course",
+              "courses/live-rooms"
+            ]
+          },
+          {
+            "group": "Payments",
+            "pages": [
+              "payments/overview",
+              "payments/qpay",
+              "payments/cards-and-wallets",
+              "payments/payouts"
+            ]
+          },
+          {
+            "group": "Plans & Billing",
+            "pages": [
+              "plans/pricing",
+              "plans/managing-your-plan"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Creator Guides",
+            "pages": [
+              "guides/launch-your-community",
+              "guides/coaching-program",
+              "guides/run-a-cohort",
+              "guides/grow-your-membership"
+            ]
+          },
+          {
+            "group": "Member Guides",
+            "pages": [
+              "guides/joining-a-community",
+              "guides/managing-your-membership"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting",
+              "help/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Community feed with posts, comments, reactions, and member directory",
+    "Structured course builder with modules, lessons, video, and resources",
+    "Built-in live rooms for group coaching calls, cohorts, and Q&As",
+    "QPay and card checkout (including Apple Pay & Google Pay) priced in MNT",
+    "Monthly and one-time membership billing with automatic renewals",
+    "Gamification: points, levels, and leaderboards to keep members engaged",
+    "Member roles and access control — gated content for paying members only",
+    "Creator earnings dashboard with manual payout transfers",
+    "Three-tier pricing: Starter (₮15,000/mo + 10%), Growth (₮40,000/mo + 5%), Scale (₮500,000/mo + 2%)"
+  ],
+  "publicApiSurface": [
+    "Creator registration and community setup",
+    "Course builder: modules, lessons, video uploads",
+    "Live room creation and management",
+    "Community feed: posts, comments, reactions",
+    "Member management: invite, roles, access control",
+    "Payment settings: QPay, card checkout, pricing in MNT",
+    "Subscription management: monthly and one-time tiers",
+    "Creator earnings dashboard and payout request",
+    "Plan management: Starter, Growth, Scale tiers",
+    "Account settings: profile, notifications, billing"
+  ]
+}
